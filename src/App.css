@@ -24,8 +24,8 @@ h1 {
   width: 40px;
   height: 40px;
   border-radius: 100%;
-  
 }
+
 .red {
   background-color: red;
 }
@@ -41,4 +41,12 @@ h1 {
   height: 300px;
   width: 10px;
 
+}
+
+.selected {
+box-shadow: 0px 0px 15px #F7ED89;
+}
+
+.trafficLight div:hover {
+  cursor: pointer;
 }
